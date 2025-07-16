@@ -1,8 +1,20 @@
 /*Caso não carregue, desabilite o Debug (allowed-hosts = ['*']) e dê Ctrl + F5 no navegador*/
 
 body{
-    background-color: rgb(255, 255, 255);
     margin:0px 0px 0px 0px;
+}
+
+label{
+    color:black;
+}
+
+#corpo{
+    margin-left: 20px;
+    color:black;
+}
+
+#corpo > h1{
+    margin: 10px 0px 10px 0px;
 }
 
 #topo{
