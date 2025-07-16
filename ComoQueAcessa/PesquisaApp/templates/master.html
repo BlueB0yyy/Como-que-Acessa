@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'estilo.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'estilo.css' %}">
 </head>
 <body>
+    <div id="topo">
+        <a href="/" class="logo">Como que Acessa</a>
+        <div id="login">
+            <a href="/login">Login</a>
+        </div>
+    </div>
     {% block content %}
     {% endblock %}
 </body>
