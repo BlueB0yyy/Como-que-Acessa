@@ -1,0 +1,42 @@
+/*Caso não carregue, desabilite o Debug (allowed-hosts = ['*']) e dê Ctrl + F5 no navegador*/
+
+body{
+    margin:0px 0px 0px 0px;
+}
+
+label{
+    color:black;
+}
+
+#corpo{
+    margin-left: 20px;
+    color:black;
+}
+
+#corpo > h1{
+    margin: 10px 0px 10px 0px;
+}
+
+#topo{
+    background-color: blue;
+    margin: 0px 0px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#topo > a,div{
+    margin: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div > a{
+    color:inherit;
+    font-style:inherit;
+    display:inherit;
+}
+
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

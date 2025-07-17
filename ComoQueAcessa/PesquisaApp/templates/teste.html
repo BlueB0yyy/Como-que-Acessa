@@ -1,0 +1,14 @@
+{%extends 'master.html'%}
+
+{%block title%}
+    Aba de teste
+{%endblock%}
+
+{%block content%}
+    <!--Method = O que será feito; Action = onde o resultado deve ser retornado (se for ., será no mesmo path)-->
+    <form method="POST" action="." class="formulario">
+        {%csrf_token%} <!--Proteção do Django-->
+        {{form}}
+        <input type="submit" value="Enviar">
+    </form>
+{%endblock%}
